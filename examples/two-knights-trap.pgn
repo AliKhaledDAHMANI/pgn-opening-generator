@@ -1,0 +1,14 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "C59"]
+[Opening "Italian Game"]
+[Variation "Two Knights Defense"]
+[SubVariation "Polerio Defense, Suhle Defense"]
+[Annotator "pgn-generator (trap mode, Stockfish 18)"]
+
+{Italian Game: Two Knights Defense, trap mode. Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense (C59).} 1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 {Sets the trap: Nxe4 is a known book reply here, but Bxf7+ refutes it. Italian Game: Two Knights Defense, Knight Attack (C57)} 4... d5 {[%cal Gd5c4][%csl Rc4] Normal Variation (C57) Black fights for the centre; the resulting structure defines both sides' plans.} ({The trap: this natural reply loses material} 4... Nxe4?! {[%cal Gd8g5][%csl Yg5,Re1] +/- +1.64 The natural move, and the mistake the trap is built around. Italian Game: Two Knights Defense, Ponziani-Steinitz Gambit (C57) The queen on d8 is uncovered against g5, pressure builds on the squares around the white king. (sharp, but objectively 119 cp worse than the best move)} 5. Bxf7+ {[%cal Gf7e8] +/- +1.99 The refutation: 154 centipawns swing according to Stockfish.}) 5. exd5 {[%cal Gd5c6][%csl Rc6] = +0.27 The e-file opens for the rooks. White fights for the centre; the resulting structure defines both sides' plans.} 5... Na5 {[%cal Ga5c4][%csl Rc4] Italian Game: Two Knights Defense, Polerio Defense (C58)} 6. Bb5+ {[%cal Gb5e8] Bishop Check Line (C58)} 6... c6 {= +0.13} 7. dxc6 {= +0.31} 7... bxc6 {[%cal Gc6b5][%csl Rb5] = +0.25 The b-file opens for the rooks. Black's pawns on c6 and a7 are isolated and will need piece support.} 8. Be2 {= +0.06 Italian Game: Two Knights Defense (C58)} ({Theory alternative: Italian Game: Two Knights Defense, Polerio Defense, Bogoljubow Variation (C58)} 8. Qf3 {[%csl Rb5] = -0.04 Italian Game: Two Knights Defense, Polerio Defense, Bogoljubow Variation (C58) The bishop on b5 is left undefended.} 8... cxb5 {[%csl Ra8] Italian Game: Two Knights Defense, Blackburne Variation (C58) The rook on a8 is left undefended.} 9. Qxa8 {[%cal Ga8d8,Ga8a7][%csl Rc8,Ra7] = -0.17 The bishop on c8 is pinned against the queen on d8.} 9... Qc7 10. Qf3 {= -0.29} 10... Nc6) 8... h6 {[%cal Gh6g5][%csl Rg5] Polerio Defense, Suhle Defense (C59) Position reached: Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense (C59); engine assessment = +0.03.} *

@@ -1,0 +1,6 @@
+# Runtime dependencies.
+#
+# Stockfish is not a Python package and must be installed separately (see
+# scripts/install.sh or https://stockfishchess.org/download/). The generator runs
+# without it, but reports engine_validated: false and omits all evaluations.
+chess>=1.10,<2

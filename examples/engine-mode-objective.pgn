@@ -1,0 +1,14 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "C54"]
+[Opening "Italian Game"]
+[Variation "Classical Variation"]
+[SubVariation "Giuoco Pianissimo"]
+[Annotator "pgn-generator (engine mode, Stockfish 18)"]
+
+{Italian Game. Italian Game: Classical Variation, Giuoco Pianissimo (C54).} 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 {= +0.26 Italian Game: Giuoco Piano (C50)} 4. d3 {= +0.32 Italian Game: Giuoco Pianissimo (C50)} 4... Nf6 {= +0.26 Normal (C50)} 5. c3 {= +0.25 Italian Game: Classical Variation, Giuoco Pianissimo (C54)} 5... a5 {= +0.28} 6. O-O {= +0.29 with a5 (C54)} 6... d6 {= +0.25 Italian Game: Classical Variation, Giuoco Pianissimo (C54)} 7. Nbd2 {= +0.31} 7... h6 {= +0.27} 8. Re1 {= +0.41} 8... O-O {= +0.38 Position reached: Italian Game: Classical Variation, Giuoco Pianissimo (C54); engine assessment = +0.32.} *

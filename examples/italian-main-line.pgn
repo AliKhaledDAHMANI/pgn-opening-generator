@@ -1,0 +1,14 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "C54"]
+[Opening "Italian Game"]
+[Variation "Classical Variation"]
+[SubVariation "Giuoco Pianissimo, Main Line"]
+[Annotator "pgn-generator (gm mode, Stockfish 18)"]
+
+{Italian Game, theoretical. Italian Game: Classical Variation, Giuoco Pianissimo, Main Line (C54).} 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 {Italian Game: Giuoco Piano (C50)} ({Theory alternative: Italian Game: Two Knights Defense (C55)} 3... Nf6 {[%cal Gf6e4][%csl Re4] Italian Game: Two Knights Defense (C55)} 4. Ng5 {Knight Attack (C57)} 4... d5 {[%cal Gd5c4][%csl Rc4] Normal Variation (C57)} 5. exd5 {= +0.28} 5... Na5 {[%cal Ga5c4][%csl Rc4] Italian Game: Two Knights Defense, Polerio Defense (C58)} 6. Bb5+ {[%cal Gb5e8] Bishop Check Line (C58)}) 4. c3 {Italian Game: Classical Variation (C53)} ({Book alternative} 4. O-O Nf6 5. d3 d6 6. c3 {Italian Game: Classical Variation, Giuoco Pianissimo (C54)} 6... a6) 4... Nf6 {[%cal Gf6e4][%csl Re4] Italian Game: Classical Variation (C54)} 5. d3 {Giuoco Pianissimo (C54)} 5... d6 6. O-O a6 7. Re1 {= +0.29} 7... Ba7 8. Bb3 {= +0.31} 8... O-O 9. h3 {Main Line (C54)} 9... Re8 {= +0.20 Position reached: Italian Game: Classical Variation, Giuoco Pianissimo, Main Line (C54); engine assessment = +0.22.} *

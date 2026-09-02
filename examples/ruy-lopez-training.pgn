@@ -1,0 +1,13 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "C89"]
+[Opening "Ruy Lopez"]
+[Variation "Marshall Attack"]
+[Annotator "pgn-generator (training mode, Stockfish 18)"]
+
+{Ruy Lopez, training mode, theoretical. Ruy Lopez: Marshall Attack (C89).} 1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 {[%cal Ga6b5][%csl Rb5] Ruy Lopez: Morphy Defense (C70)} 4. Ba4 {= +0.35} 4... Nf6 {Black develops with tempo and prepares to castle.} 5. O-O {Ruy Lopez: Morphy Defense (C78) White tucks the king away and connects the rooks.} 5... Be7 {Ruy Lopez: Closed (C84)} ({Theory alternative: Ruy Lopez: Open (C80)} 5... Nxe4 {Ruy Lopez: Open (C80)} 6. d4 b5 {= +0.42} 7. Bb3 {= +0.37} 7... d5 {= +0.34} 8. dxe5 {= +0.33 The d-file opens for the rooks.}) 6. Re1 b5 7. Bb3 {Ruy Lopez: Closed (C88)} 7... O-O ({Book alternative} 7... d6 8. c3 O-O {Ruy Lopez: Closed (C90) Black tucks the king away and connects the rooks.} 9. h3 {Ruy Lopez: Closed (C92)} 9... Na5 {[%cal Ga5b3][%csl Rb3] Chigorin Defense (C97)} 10. Bc2 {Ruy Lopez: Closed, Chigorin Defense (C96)}) 8. c3 d5 {Ruy Lopez: Marshall Attack (C89) Black fights for the centre; the resulting structure defines both sides' plans.} 9. exd5 {[%cal Gd5c6][%csl Rc6] = +0.56 The e-file opens for the rooks. White fights for the centre; the resulting structure defines both sides' plans.} 9... Nxd5 {Position reached: Ruy Lopez: Marshall Attack (C89); engine assessment = +0.38.} *

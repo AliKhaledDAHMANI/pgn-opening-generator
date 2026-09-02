@@ -1,0 +1,13 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "C89"]
+[Opening "Ruy Lopez"]
+[Variation "Marshall Attack"]
+[Annotator "pgn-generator (repertoire mode, Stockfish 18)"]
+
+{repertoire mode. Ruy Lopez: Marshall Attack (C89).} 1. e4 {King's Pawn Game (B00)} 1... e5 {King's Pawn Game (C20)} 2. Nf3 {[%cal Gf3e5][%csl Re5] King's Knight Opening (C40)} 2... Nc6 {King's Knight Opening: Normal Variation (C44)} ({Repertoire branch} 2... Nf6 {If Nf6 (Petrov's Defense)} 3. Nxe5 {[%csl Re8] Petrov's Defense (C42) Pressure builds on the squares around the black king.} 3... d6 {= +0.53} 4. Nf3 Nxe4 {Pressure builds on the squares around the white king.} 5. d4 {= +0.47 Petrov's Defense: Classical Attack (C42)}) 3. Bb5 {Ruy Lopez (C60)} 3... a6 {[%cal Ga6b5][%csl Rb5] Ruy Lopez: Morphy Defense (C70)} ({Repertoire branch} 3... Nf6 {If Nf6 (Ruy Lopez: Berlin Defense)} 4. O-O {Ruy Lopez: Berlin Defense (C65)} 4... Nxe4 {Rio Gambit Accepted (C67)} 5. d4 Nd6 {[%cal Gd6b5][%csl Rb5] = -0.08 Ruy Lopez: Berlin Defense, l'Hermet Variation (C67)} 6. Bxc6 {= +0.06}) 4. Ba4 {= +0.38} 4... Nf6 ({Repertoire branch} 4... Bc5 {If Bc5 (Ruy Lopez: Morphy Defense, Classical Defense Deferred)} 5. O-O Nge7 6. c3 Ng6 7. d4) 5. O-O {Ruy Lopez: Morphy Defense (C78)} 5... Be7 {Ruy Lopez: Closed (C84)} 6. Re1 b5 7. Bb3 {Ruy Lopez: Closed (C88)} 7... O-O 8. c3 d5 {Ruy Lopez: Marshall Attack (C89) Position reached: Ruy Lopez: Marshall Attack (C89); engine assessment +/= +0.95.} *

@@ -1,0 +1,14 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "B68"]
+[Opening "Sicilian Defense"]
+[Variation "Richter-Rauzer Variation"]
+[SubVariation "Neo-Modern Variation"]
+[Annotator "pgn-generator (gm mode, Stockfish 18)"]
+
+{Sicilian Defense. Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation (B68).} 1. e4 c5 2. Nf3 d6 3. d4 cxd4 {Sicilian Defense (B50)} 4. Nxd4 Nf6 {[%cal Gf6e4][%csl Re4] Sicilian Defense: Modern Variations, Main Line (B54)} 5. Nc3 Nc6 {Sicilian Defense: Classical Variation (B56)} ({Theory alternative: Sicilian Defense: Najdorf Variation (B90)} 5... a6 {Sicilian Defense: Najdorf Variation (B90)} 6. Be3 {English Attack (B90)} 6... e5 7. Nb3 Be7 8. h3) 6. Bg5 {Sicilian Defense: Richter-Rauzer Variation (B60)} 6... Bd7 {Modern Variation (B60)} 7. Qd2 {Sicilian Defense: Richter-Rauzer Variation, Modern Variation (B61)} 7... a6 8. O-O-O {= +0.54} 8... e6 {Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation (B67)} 9. f4 {= +0.52} 9... Be7 {Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation (B68) Position reached: Sicilian Defense: Richter-Rauzer Variation, Neo-Modern Variation (B68); engine assessment = +0.54.} *

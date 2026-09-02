@@ -1,0 +1,14 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "B98"]
+[Opening "Sicilian Defense"]
+[Variation "Najdorf Variation"]
+[SubVariation "Browne Variation"]
+[Annotator "pgn-generator (gm mode, Stockfish 18)"]
+
+{Sicilian Defense: Najdorf Variation, sharp tactical. Sicilian Defense: Najdorf Variation, Browne Variation (B98).} 1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 {Sicilian Defense: Najdorf Variation (B94)} ({Theory alternative: Sicilian Defense: Najdorf Variation, English Attack (B90)} 6. Be3 {Sicilian Defense: Najdorf Variation, English Attack (B90)} 6... e5 7. Nb3 Be6 8. f3 Nc6) 6... e6 {Sicilian Defense: Najdorf Variation (B95)} 7. f4 {= +0.17 Sicilian Defense: Najdorf Variation (B96)} 7... Be7 {Sicilian Defense: Najdorf Variation (B98)} ({Theory alternative: Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation (B97)} 7... Qb6 {[%cal Gb6b2][%csl Rb2] Sicilian Defense: Najdorf Variation, Poisoned Pawn Variation (B97)} 8. Qd2 {= +0.45} 8... Qxb2 {= +0.37} 9. Rb1 {= +0.34} 9... Qa3 {= +0.34 Sicilian Defense: Najdorf Variation, Poisoned Pawn Accepted (B97)} 10. f5 {= +0.34}) 8. Qf3 {= +0.50} 8... h6 9. Bh4 {[%cal Gh4e7][%csl Rf6] = +0.53 The knight on f6 is pinned against the bishop on e7.} 9... Qc7 {Browne Variation (B98)} 10. O-O-O {+/= +0.75} 10... Nbd7 {Position reached: Sicilian Defense: Najdorf Variation, Browne Variation (B98); engine assessment = +0.63.} *

@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgn-opening-generator"
+version = "1.0.0"
+description = "Natural language to legal, Stockfish-validated, annotated chess opening PGN"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+keywords = ["chess", "pgn", "opening", "stockfish", "eco", "agent", "skill"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Games/Entertainment :: Board Games",
+    "Typing :: Typed",
+]
+dependencies = ["chess>=1.10,<2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<10"]
+
+[project.scripts]
+pgn-generator = "pgn_generator.cli:main"
+
+[tool.setuptools]
+packages = ["pgn_generator"]
+
+[tool.setuptools.package-data]
+# The compiled index is what the loader reads; the TSV sources ship too so the
+# index can be rebuilt and audited.
+pgn_generator = ["data/eco/*.tsv", "data/eco/index.json.gz"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["error::DeprecationWarning:pgn_generator.*"]

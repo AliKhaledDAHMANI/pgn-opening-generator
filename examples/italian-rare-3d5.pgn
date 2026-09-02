@@ -1,0 +1,12 @@
+[Event "Opening Analysis"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "-"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[ECO "C50"]
+[Opening "Italian Game"]
+[Annotator "pgn-generator (gm mode, Stockfish 18)"]
+
+{Italian Game, aggressive. Italian Game (C50).} 1. e4 e5 2. Nf3 Nc6 3. Bc4 d5 4. exd5 {+/= +1.48} 4... Nd4 5. Nxd4 exd4 6. Qe2+ Qe7 {[%cal Ge7e1][%csl Re2] +/= +1.12 The queen on e2 is pinned against the king on e1.} 7. Qxe7+ Nxe7 {+/= +1.17} ({Engine's alternative of equal value} 7... Bxe7 {+/= +1.32} 8. O-O b6 9. Bb5+ Bd7 {+/= +1.04} 10. Bxd7+) 8. d3 Bf5 9. Nd2 O-O-O {Position reached: Italian Game (C50); engine assessment +/= +1.06.} *
