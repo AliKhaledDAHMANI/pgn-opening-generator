@@ -66,7 +66,7 @@ chmod +x scripts/install.sh
 ./scripts/install.sh
 ```
 
-> **Linux/Debian/antiX:** If `python3 -m venv .venv` fails, install the required packages first:
+> **Linux/Debian:** If `python3 -m venv .venv` fails, install the required packages first:
 
 ```console
 sudo apt update
