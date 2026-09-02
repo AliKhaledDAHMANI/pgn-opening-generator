@@ -52,11 +52,35 @@ Stockfish 16 or newer is strongly recommended.
 ```console
 git clone https://github.com/AliKhaledDAHMANI/pgn-opening-generator.git
 cd pgn-opening-generator
-pip install -r requirements.txt
-./scripts/install.sh          # checks the setup, offers to fetch Stockfish
+
+# Create and activate a virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install dependencies
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+# Run the installer
+chmod +x scripts/install.sh
+./scripts/install.sh
 ```
 
-`scripts/install.sh` verifies python-chess, locates Stockfish (or downloads it
+> **Linux/Debian/antiX:** If `python3 -m venv .venv` fails, install the required packages first:
+
+```console
+sudo apt update
+sudo apt install python3-full python3-venv -y
+```
+
+Then create and activate the virtual environment again:
+
+```console
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+`scripts/install.sh` verifies `python-chess`, locates Stockfish (or downloads it
 into `~/.local/share/pgn-generator/engine`), rebuilds the opening index and runs
 the fast test suite.
 
@@ -215,8 +239,11 @@ move, not games played - the data set has no game counts, so none are claimed.
 
 ## Development
 
+First create and activate the virtual environment as described in the
+[Install](#install) section.
+
 ```console
-pip install -r requirements-dev.txt
+python -m pip install -r requirements-dev.txt
 pytest -q                       # engine tests skip automatically without Stockfish
 PGNGEN_ENGINE_PATH=/path/to/stockfish pytest -q
 ```
