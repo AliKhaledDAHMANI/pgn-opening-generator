@@ -4,7 +4,7 @@ Turns a natural-language description of a chess opening idea into a legal,
 Stockfish-validated, annotated PGN variation.
 
 ```console
-$ python3 -m pgn_generator "Show me a trap in the Two Knights Defense." --mode trap
+python3 -m pgn_generator "Show me a trap in the Two Knights Defense." --mode trap
 ```
 
 ```
@@ -50,10 +50,10 @@ Requires Python 3.9+ and [python-chess](https://python-chess.readthedocs.io/).
 Stockfish 16 or newer is strongly recommended.
 
 ```console
-$ git clone https://github.com/AliKhaledDAHMANI/pgn-opening-generator.git
-$ cd pgn-opening-generator
-$ pip install -r requirements.txt
-$ ./scripts/install.sh          # checks the setup, offers to fetch Stockfish
+git clone https://github.com/AliKhaledDAHMANI/pgn-opening-generator.git
+cd pgn-opening-generator
+pip install -r requirements.txt
+./scripts/install.sh          # checks the setup, offers to fetch Stockfish
 ```
 
 `scripts/install.sh` verifies python-chess, locates Stockfish (or downloads it
@@ -68,26 +68,26 @@ Point the tool at a specific engine binary with `--engine /path/to/stockfish` or
 Copy or symlink the directory into your agent's skills path:
 
 ```console
-$ ln -s "$PWD" ~/.config/opencode/skills/pgn-opening-generator
+ln -s "$PWD" ~/.config/opencode/skills/pgn-opening-generator
 ```
 
 ## Use
 
 ```console
 # Opening theory
-$ python3 -m pgn_generator "Show me the main line of the Italian Game."
-$ python3 -m pgn_generator "Create a sharp Sicilian Najdorf variation." --moves-count 12
+python3 -m pgn_generator "Show me the main line of the Italian Game."
+python3 -m pgn_generator "Create a sharp Sicilian Najdorf variation." --moves-count 12
 
 # From a position
-$ python3 -m pgn_generator "best line after 1.e4 c5 2.Nf3 d6 3.d4"
-$ python3 -m pgn_generator "best response here" --fen "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4"
+python3 -m pgn_generator "best line after 1.e4 c5 2.Nf3 d6 3.d4"
+python3 -m pgn_generator "best response here" --fen "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4"
 
 # Traps and repertoires
-$ python3 -m pgn_generator "trap against the King's Indian" --mode trap
-$ python3 -m pgn_generator "opening repertoire for White against 1...e5"
+python3 -m pgn_generator "trap against the King's Indian" --mode trap
+python3 -m pgn_generator "opening repertoire for White against 1...e5"
 
 # Machine-readable output for an agent
-$ python3 -m pgn_generator "Italian Game" --format json --trace
+python3 -m pgn_generator "Italian Game" --format json --trace
 ```
 
 From Python:
@@ -216,9 +216,9 @@ move, not games played - the data set has no game counts, so none are claimed.
 ## Development
 
 ```console
-$ pip install -r requirements-dev.txt
-$ pytest -q                       # engine tests skip automatically without Stockfish
-$ PGNGEN_ENGINE_PATH=/path/to/stockfish pytest -q
+pip install -r requirements-dev.txt
+pytest -q                       # engine tests skip automatically without Stockfish
+PGNGEN_ENGINE_PATH=/path/to/stockfish pytest -q
 ```
 
 261 tests cover the book, features, selection, annotation discipline, PGN
