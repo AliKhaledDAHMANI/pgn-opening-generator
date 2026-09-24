@@ -53,15 +53,12 @@ Stockfish 16 or newer is strongly recommended.
 git clone https://github.com/AliKhaledDAHMANI/pgn-opening-generator.git
 cd pgn-opening-generator
 
-# Create and activate a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Install dependencies
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
-# Run the installer
 chmod +x scripts/install.sh
 ./scripts/install.sh
 ```
@@ -149,41 +146,6 @@ opponent plays soundly, so "aggressive" does not become both sides blundering.
 
 Mode and style are inferred from the request text ("sharp", "teach me", "trap",
 "objectively best") and can be overridden with flags.
-
-## How it works
-
-```
-request text
-    |
-    v
-RequestParser ......... opening name, starting moves/FEN, style, mode, length
-    |
-    v
-MoveSelector .......... ECO book theory  x  Stockfish MultiPV  x  style weights
-    |                   (rejects anything losing more than the cp tolerance)
-    v
-Annotator ............. NAGs, comments, evaluations, arrows - all justified
-    |
-    v
-PGN writer ............ nested variations, headers, inline suffixes
-    |
-    v
-Validator ............. 8 checks; nothing is returned unless they pass
-```
-
-Move choice blends six scored components - engine quality, theory breadth, king
-attack, solidity, tactics and practicality - weighted per style. A move that
-loses more than the configured centipawn tolerance is rejected outright, so no
-style can talk the generator into an unsound line.
-
-Traps are found mechanically, not from a hard-coded list: a sound bait, a reply
-that is near-best in a deliberately *shallow* search (what a human plays at a
-glance) or wins material by static exchange, and a punishment the engine confirms
-swings at least 120 centipawns at full depth.
-
-Output is deterministic by default: fixed depth and nodes, one thread, no
-time-based search, so the same request on the same machine gives byte-identical
-PGN.
 
 ## Validation
 
