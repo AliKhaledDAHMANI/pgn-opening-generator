@@ -95,19 +95,15 @@ ln -s "$PWD" ~/.config/opencode/skills/pgn-opening-generator
 ## Use
 
 ```console
-# Opening theory
 python3 -m pgn_generator "Show me the main line of the Italian Game."
 python3 -m pgn_generator "Create a sharp Sicilian Najdorf variation." --moves-count 12
 
-# From a position
 python3 -m pgn_generator "best line after 1.e4 c5 2.Nf3 d6 3.d4"
 python3 -m pgn_generator "best response here" --fen "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4"
 
-# Traps and repertoires
 python3 -m pgn_generator "trap against the King's Indian" --mode trap
 python3 -m pgn_generator "opening repertoire for White against 1...e5"
 
-# Machine-readable output for an agent
 python3 -m pgn_generator "Italian Game" --format json --trace
 ```
 
